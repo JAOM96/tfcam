@@ -1,0 +1,16 @@
+
+  <mat-card  class="permission-card">
+    <mat-card-title>Media Pipe</mat-card-title>
+    <mat-card-content>
+      <p>Se requiere acceso a la cámara.</p>
+      <button mat-raised-button color="primary" (click)="requestCamera()">
+        Activar Cámara
+      </button>
+    </mat-card-content>
+    <video #video style="display:none;"></video>
+  <canvas #canvas width="640" height="480"></canvas>
+  </mat-card>
+
+
+
+  
